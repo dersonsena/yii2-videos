@@ -23,6 +23,10 @@ $config = [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'RpgtVoGkx6SYYp3TOl-np5LVR9nrKKHz',
         ],
+        'formatter' => [
+            'class' => 'app\classes\components\MyComponent',
+            'string' => 'Yii2 Vídeos'
+        ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
