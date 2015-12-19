@@ -4,6 +4,18 @@ $params = require(__DIR__ . '/params.php');
 
 $config = [
     'id' => 'basic',
+    'name' => 'Minha Aplicação',
+    'version' => '2.5',
+    'aliases' => [
+        '@meualias1' => 'path/to/meu/alias1',
+    ],
+    'language' => 'en',
+    'sourceLanguage' => 'pt-BR',
+    'timeZone' => 'America/Fortaleza',
+    'charset' => 'UTF-8',
+    /*'catchAll' => [
+        'pessoas/index'
+    ],*/
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'components' => [
