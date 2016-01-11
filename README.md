@@ -7,13 +7,13 @@ Cadastre-se na lista e seja o primeiro a receber novo vídeos: https://dersonsen
 https://www.youtube.com/playlist?list=PLBD8to5dJhvzp1PPijCsGBKZnHTVtHf7a
 
 # Contribuidores:
-https://www.facebook.com/groups/yiiframewokbrasil
-https://www.facebook.com/groups/245065688943280
-https://www.facebook.com/YiiFrameworkBrasil
-https://plus.google.com/u/0/communities/116052169983764978251
+- https://www.facebook.com/groups/yiiframewokbrasil
+- https://www.facebook.com/groups/245065688943280
+- https://www.facebook.com/YiiFrameworkBrasil
+- https://plus.google.com/u/0/communities/116052169983764978251
 
 # Redes Sociais
-Meu Facebook - fecebook.com/kilderson.sena
-Meu Twitter - @derson_sena
-Meu Canal no Youtube - youtube.com/user/dersonsena
-Meu Google+ - google.com/+KildersonPinheirodeSena
+- Meu Facebook - [facebook.com/kilderson.sena](https://www.facebook.com/kilderson.sena)
+- Meu Twitter - [@derson_sena](https://twitter.com/derson_sena)
+- Meu Canal no Youtube - [youtube.com/user/dersonsena](https://www.youtube.com/user/dersonsena)
+- Meu Google+ - [google.com/+KildersonPinheirodeSena](google.com/+KildersonPinheirodeSena)
