@@ -2,9 +2,29 @@
 
 /* @var $this yii\web\View */
 
+use app\classes\widgets\HelloWidget;
+use app\classes\widgets\HelloWorldBeginEndWidget;
+use yii\helpers\Html;
+use yii\helpers\HtmlPurifier;
+use yii\jui\DatePicker;
+
 $this->title = 'My Yii Application';
 ?>
 <div class="site-index">
+
+    <div>
+        <?= HelloWidget::widget([
+            'message' => 'Olá Mundo!',
+            'submessage' => 'Olá mundo, tudo bem comigo!'
+        ]) ?>
+
+        <?php HelloWorldBeginEndWidget::begin(['encode'=>false]) ?>
+
+            <h2>Videos Aulas do Yii2 Framework</h2>
+            <h3>Vídeo aulas produzidas pelo Kilderson Sena</h3>
+
+        <?php HelloWorldBeginEndWidget::end() ?>
+    </div>
 
     <div class="jumbotron">
         <h1>Congratulations!</h1>

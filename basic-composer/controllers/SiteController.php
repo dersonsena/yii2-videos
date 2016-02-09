@@ -50,13 +50,10 @@ class SiteController extends Controller
 
     public function actionIndex()
     {
-        /** @var $myComponent MyComponent */
-        $myComponent = Yii::$app->myComponent;
-
-        $myComponent->printString();
-        die;
-
-        return $this->render('index');
+        return $this->render('index', [
+            'nome' => 'Kilderson',
+            'sobrenome' => 'Sena'
+        ]);
     }
 
     public function actionLogin()
