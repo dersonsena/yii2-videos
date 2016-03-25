@@ -1,0 +1,23 @@
+* {
+    font-family: 'Open Sans', Arial;
+    font-size: .99em;
+}
+
+h2 {
+    opacity: 0;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    letter-spacing: -2px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+p {
+    opacity: 0;
+    line-height: 22px;
+}
