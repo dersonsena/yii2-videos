@@ -10,9 +10,6 @@ $config = [
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'QIvPe_dHHwqGhTHcJge6Th9f1UDMkQL2',
-            'parsers' => [
-                'application/json' => 'yii\web\JsonParser',
-            ],
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
@@ -41,24 +38,16 @@ $config = [
             ],
         ],
         'db' => require(__DIR__ . '/db.php'),
+        /*
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
-                [
-                    'class' => 'yii\rest\UrlRule',
-                    'pluralize' => false,
-                    'controller' => ['api/default'],
-                ],
             ],
         ],
+        */
     ],
     'params' => $params,
-    'modules' => [
-        'api' => [
-            'class' => 'app\modules\api\ApiModule',
-        ],
-    ],
 ];
 
 if (YII_ENV_DEV) {
