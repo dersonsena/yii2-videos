@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use RestClient;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -90,5 +91,33 @@ class SiteController extends Controller
     public function actionAbout()
     {
         return $this->render('about');
+    }
+
+    public function actionFeed()
+    {
+        $api = new RestClient([
+            'base_url' => "http://localhost:9999/api",
+            'headers' => [
+                'Accept' => 'application/json'
+            ]
+        ]);
+
+        /*$result = $api->get('/default');
+        echo '<pre>'; print_r($result->response); die;*/
+
+        /*$api->post('default/create', [
+            'titulo' => 'Criando notícia pela Aplicação',
+            'cabeca' => 'Cabeça do titulo',
+            'corpo' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis varius velit eu risus hendrerit commodo. Suspendisse potenti. Sed tempus vitae erat id dapibus. ',
+            'status' => 1
+        ]);*/
+
+        /*$api->put('default/4', [
+            'titulo' => 'Alterando o titulo do ID 4'
+        ]);*/
+
+        //$api->delete('default/4');
+
+        return $this->render('feed');
     }
 }
