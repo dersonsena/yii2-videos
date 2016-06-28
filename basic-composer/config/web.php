@@ -9,7 +9,7 @@ $config = [
     'aliases' => [
         '@meualias1' => 'path/to/meu/alias1',
     ],
-    'language' => 'en',
+    'language' => 'pt_BR',
     'sourceLanguage' => 'pt-BR',
     'timeZone' => 'America/Fortaleza',
     'charset' => 'UTF-8',
@@ -26,6 +26,10 @@ $config = [
         'myComponent' => [
             'class' => 'app\classes\components\MyComponent',
             'string' => 'Yii2 Vídeos'
+        ],
+        'formatter' => [
+            'class' => 'app\classes\components\MyFormatter',
+            'dateFormat' => 'dd/MM/YYYY'
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
